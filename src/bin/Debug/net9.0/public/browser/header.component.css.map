@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/header/header.component.scss"],
+  "sourcesContent": [":host {\r\n    a {\r\n        margin-left: 1rem;\r\n    }\r\n}"],
+  "mappings": ";AACI,MAAA;AACI,eAAA;;",
+  "names": []
+}

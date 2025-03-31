@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/styles.scss"],
+  "sourcesContent": ["/* You can add global styles to this file, and also import other style files */\r\n\r\n/* CSS Reset */\r\n*,\r\n*::before,\r\n*::after {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml, body {\r\n  height: 100%;\r\n  font-family: Arial, sans-serif;\r\n}\r\n\r\nbody {\r\n  line-height: 1.5;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\nimg, picture, video, canvas, svg {\r\n  display: block;\r\n  max-width: 100%;\r\n}\r\n\r\ninput, button, textarea, select {\r\n  font: inherit;\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\nul, ol {\r\n  list-style: none;\r\n}\r\n\r\n\r\n/* Custom styles */\r\n\r\n"],
+  "mappings": ";AAGA;AAAA,CAAA;AAAA,CAAA;AAGE,UAAA;AACA,WAAA;AACA,cAAA;;AAGF;AAAA;AACE,UAAA;AACA,eAAA,KAAA,EAAA;;AAGF;AACE,eAAA;AACA,0BAAA;AACA,2BAAA;;AAGF;AAAA;AAAA;AAAA;AAAA;AACE,WAAA;AACA,aAAA;;AAGF;AAAA;AAAA;AAAA;AACE,QAAA;;AAGF;AACE,mBAAA;AACA,SAAA;;AAGF;AAAA;AACE,cAAA;;",
+  "names": []
+}
