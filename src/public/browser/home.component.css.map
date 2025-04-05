@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/components/home/home.component.scss"],
+  "sourcesContent": [".featured {\r\n    &>div {\r\n        padding: 20px;\r\n        text-align: center;\r\n        color: black;\r\n        font-size: 3rem;\r\n        font-weight: 900;\r\n        display: flex;\r\n        flex-direction: row;\r\n        justify-content: center;\r\n        align-items: center;\r\n        gap: 2rem;\r\n\r\n        img {\r\n            height: 5rem;\r\n        }\r\n    }\r\n\r\n    &>p {\r\n        font-weight: bold;\r\n        text-transform: uppercase;\r\n    }\r\n}"],
+  "mappings": ";AACI,CAAA,SAAA,EAAA;AACI,WAAA;AACA,cAAA;AACA,SAAA;AACA,aAAA;AACA,eAAA;AACA,WAAA;AACA,kBAAA;AACA,mBAAA;AACA,eAAA;AACA,OAAA;;AAEA,CAZJ,SAYI,EAAA,IAAA;AACI,UAAA;;AAIR,CAjBA,SAiBA,EAAA;AACI,eAAA;AACA,kBAAA;;",
+  "names": []
+}

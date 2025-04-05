@@ -1,13 +1,23 @@
 <header name="home">
-    <div class="logo">Vorteon</div>
+    <div class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" class="logo-svg">
+            <!-- Load the SVG image -->
+            <image href="/assets/vorteon-logo.svg" x="0" y="0" height="80" width="80"></image>
+            <!-- Display the text -->
+            <text x="100" y="50" font-size="64" text-anchor="start" alignment-baseline="middle" font-family="Montserrat, Arial, sans-serif" fill="black">
+                Vorteon
+            </text>
+        </svg>
+    </div>
     <nav>
         <a href="/#home">Home</a>
         <a href="/services">Services</a>
         <a href="/pricing">Pricing</a>
+        <a href="/developers">Developers</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
     </nav>
-    <div>
+    <div class="auth-buttons">
         <a href="/login" class="cta">Log In</a>
         <a href="/login" class="cta subscribe">Sign Up</a>
     </div>

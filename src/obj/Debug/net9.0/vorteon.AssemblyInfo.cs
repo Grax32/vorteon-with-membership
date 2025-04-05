@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VorteonWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a16eeafa4808a6f7b15ac785167f5292674448d1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+043e8a690e564a693c8ba3b4a98230667b936e2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("VorteonWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VorteonWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

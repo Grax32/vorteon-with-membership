@@ -1,0 +1,23 @@
+.featured {
+    &>div {
+        padding: 20px;
+        text-align: center;
+        color: black;
+        font-size: 3rem;
+        font-weight: 900;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+
+        img {
+            height: 5rem;
+        }
+    }
+
+    &>p {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}

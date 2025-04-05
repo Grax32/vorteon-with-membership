@@ -38,6 +38,11 @@ ul,
 ol {
   list-style: none;
 }
+html,
+body {
+  scroll-behavior: smooth;
+  min-width: 500px;
+}
 
 /* angular:styles/global:styles */
 /*# sourceMappingURL=styles.css.map */

@@ -1,5 +1,48 @@
-:host {
-    a {
-        margin-left: 1rem;
+a {
+    margin: 0.25rem 1rem;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    div.logo {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 1rem;
+   
+        svg,
+        img {
+            height: 40px;
+        }
+
+        div {
+            display: block;
+        }
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+        margin-left: auto;
+    }
+
+    div.auth-buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 1rem;
+
     }
 }

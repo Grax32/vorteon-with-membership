@@ -32495,37 +32495,39 @@ var HomeComponent = class _HomeComponent {
     };
   }
   static {
-    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 23, vars: 0, consts: [[1, "hero"], ["href", "/get-started", 1, "cta"], [1, "features"], [1, "feature"]], template: function HomeComponent_Template(rf, ctx) {
+    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 25, vars: 0, consts: [[1, "featured"], [1, "name-banner"], ["src", "/assets/vorteon-logo.svg"], ["href", "/get-started", 1, "cta"], [1, "features"], [1, "feature"]], template: function HomeComponent_Template(rf, ctx) {
       if (rf & 1) {
-        \u0275\u0275elementStart(0, "section", 0)(1, "h1");
-        \u0275\u0275text(2, "Vorteon");
-        \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(3, "p");
-        \u0275\u0275text(4, "Transforming Data into Documents");
-        \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(5, "a", 1);
-        \u0275\u0275text(6, "Get Started");
+        \u0275\u0275elementStart(0, "section", 0)(1, "div", 1);
+        \u0275\u0275element(2, "img", 2);
+        \u0275\u0275elementStart(3, "div");
+        \u0275\u0275text(4, "Vorteon");
         \u0275\u0275elementEnd()();
-        \u0275\u0275elementStart(7, "section", 2)(8, "div", 3)(9, "h2");
-        \u0275\u0275text(10, "General Use");
+        \u0275\u0275elementStart(5, "p");
+        \u0275\u0275text(6, "Transforming Data into Documents");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(11, "p");
-        \u0275\u0275text(12, "Powerful API for seamless integration.");
+        \u0275\u0275elementStart(7, "a", 3);
+        \u0275\u0275text(8, "Get Started");
         \u0275\u0275elementEnd()();
-        \u0275\u0275elementStart(13, "div", 3)(14, "h2");
-        \u0275\u0275text(15, "Business Class");
+        \u0275\u0275elementStart(9, "section", 4)(10, "div", 5)(11, "h2");
+        \u0275\u0275text(12, "General Use");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(16, "p");
-        \u0275\u0275text(17, "Streamlined solutions for high volume");
+        \u0275\u0275elementStart(13, "p");
+        \u0275\u0275text(14, "Powerful API for seamless integration.");
         \u0275\u0275elementEnd()();
-        \u0275\u0275elementStart(18, "div", 3)(19, "h2");
-        \u0275\u0275text(20, "Dedicated Full Service");
+        \u0275\u0275elementStart(15, "div", 5)(16, "h2");
+        \u0275\u0275text(17, "Business Class");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(21, "p");
-        \u0275\u0275text(22, "Dedicated resources and advanced tools for productivity and collaboration.");
+        \u0275\u0275elementStart(18, "p");
+        \u0275\u0275text(19, "Streamlined solutions for high volume");
+        \u0275\u0275elementEnd()();
+        \u0275\u0275elementStart(20, "div", 5)(21, "h2");
+        \u0275\u0275text(22, "Dedicated Full Service");
+        \u0275\u0275elementEnd();
+        \u0275\u0275elementStart(23, "p");
+        \u0275\u0275text(24, "Dedicated resources and advanced tools for productivity and collaboration.");
         \u0275\u0275elementEnd()()();
       }
-    } });
+    }, styles: ["\n\n.featured[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%] {\n  padding: 20px;\n  text-align: center;\n  color: black;\n  font-size: 3rem;\n  font-weight: 900;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  gap: 2rem;\n}\n.featured[_ngcontent-%COMP%]    > div[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 5rem;\n}\n.featured[_ngcontent-%COMP%]    > p[_ngcontent-%COMP%] {\n  font-weight: bold;\n  text-transform: uppercase;\n}\n/*# sourceMappingURL=home.component.css.map */"] });
   }
 };
 (() => {
@@ -32637,6 +32639,36 @@ var GetStartedComponent = class _GetStartedComponent {
   (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(GetStartedComponent, { className: "GetStartedComponent", filePath: "src\\app\\components\\get-started\\get-started.component.ts", lineNumber: 10 });
 })();
 
+// src/app/components/developers/developers.component.ts
+var DevelopersComponent = class _DevelopersComponent {
+  static {
+    this.\u0275fac = function DevelopersComponent_Factory(t) {
+      return new (t || _DevelopersComponent)();
+    };
+  }
+  static {
+    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _DevelopersComponent, selectors: [["app-developers"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 9, vars: 0, template: function DevelopersComponent_Template(rf, ctx) {
+      if (rf & 1) {
+        \u0275\u0275elementStart(0, "h1");
+        \u0275\u0275text(1, "API Documentation");
+        \u0275\u0275elementEnd();
+        \u0275\u0275elementStart(2, "p");
+        \u0275\u0275text(3, "Vorteon provides a powerful API for seamless integration into your applications. Our API allows you to easily convert, manipulate, and manage PDF documents with just a few lines of code.");
+        \u0275\u0275elementEnd();
+        \u0275\u0275elementStart(4, "ul")(5, "li");
+        \u0275\u0275text(6, " Generate PDF documents from HTML ");
+        \u0275\u0275elementEnd();
+        \u0275\u0275elementStart(7, "li");
+        \u0275\u0275text(8, " Crypotgraphically Sign PDF documents to confirm authenticity and integrity ");
+        \u0275\u0275elementEnd()();
+      }
+    } });
+  }
+};
+(() => {
+  (typeof ngDevMode === "undefined" || ngDevMode) && \u0275setClassDebugInfo(DevelopersComponent, { className: "DevelopersComponent", filePath: "src\\app\\components\\developers\\developers.component.ts", lineNumber: 10 });
+})();
+
 // src/app/app.routes.ts
 var routes = [
   { path: "", component: HomeComponent },
@@ -32644,7 +32676,8 @@ var routes = [
   { path: "pricing", component: PricingComponent },
   { path: "about", component: AboutComponent },
   { path: "contact", component: ContactComponent },
-  { path: "get-started", component: GetStartedComponent }
+  { path: "get-started", component: GetStartedComponent },
+  { path: "developers", component: DevelopersComponent }
 ];
 
 // src/app/app.config.ts
@@ -32660,34 +32693,42 @@ var HeaderComponent = class _HeaderComponent {
     };
   }
   static {
-    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HeaderComponent, selectors: [["app-header"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 19, vars: 0, consts: [["name", "home"], [1, "logo"], ["href", "/#home"], ["href", "/services"], ["href", "/pricing"], ["href", "/about"], ["href", "/contact"], ["href", "/login", 1, "cta"], ["href", "/login", 1, "cta", "subscribe"]], template: function HeaderComponent_Template(rf, ctx) {
+    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HeaderComponent, selectors: [["app-header"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 24, vars: 0, consts: [["name", "home"], [1, "logo"], ["xmlns", "http://www.w3.org/2000/svg", "viewBox", "0 0 400 100", 1, "logo-svg"], ["href", "/assets/vorteon-logo.svg", "x", "0", "y", "0", "height", "80", "width", "80"], ["x", "100", "y", "50", "font-size", "64", "text-anchor", "start", "alignment-baseline", "middle", "font-family", "Montserrat, Arial, sans-serif", "fill", "black"], ["href", "/#home"], ["href", "/services"], ["href", "/pricing"], ["href", "/developers"], ["href", "/about"], ["href", "/contact"], [1, "auth-buttons"], ["href", "/login", 1, "cta"], ["href", "/login", 1, "cta", "subscribe"]], template: function HeaderComponent_Template(rf, ctx) {
       if (rf & 1) {
         \u0275\u0275elementStart(0, "header", 0)(1, "div", 1);
-        \u0275\u0275text(2, "Vorteon");
+        \u0275\u0275namespaceSVG();
+        \u0275\u0275elementStart(2, "svg", 2);
+        \u0275\u0275element(3, "image", 3);
+        \u0275\u0275elementStart(4, "text", 4);
+        \u0275\u0275text(5, " Vorteon ");
+        \u0275\u0275elementEnd()()();
+        \u0275\u0275namespaceHTML();
+        \u0275\u0275elementStart(6, "nav")(7, "a", 5);
+        \u0275\u0275text(8, "Home");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(3, "nav")(4, "a", 2);
-        \u0275\u0275text(5, "Home");
+        \u0275\u0275elementStart(9, "a", 6);
+        \u0275\u0275text(10, "Services");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(6, "a", 3);
-        \u0275\u0275text(7, "Services");
+        \u0275\u0275elementStart(11, "a", 7);
+        \u0275\u0275text(12, "Pricing");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(8, "a", 4);
-        \u0275\u0275text(9, "Pricing");
+        \u0275\u0275elementStart(13, "a", 8);
+        \u0275\u0275text(14, "Developers");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(10, "a", 5);
-        \u0275\u0275text(11, "About");
+        \u0275\u0275elementStart(15, "a", 9);
+        \u0275\u0275text(16, "About");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(12, "a", 6);
-        \u0275\u0275text(13, "Contact");
+        \u0275\u0275elementStart(17, "a", 10);
+        \u0275\u0275text(18, "Contact");
         \u0275\u0275elementEnd()();
-        \u0275\u0275elementStart(14, "div")(15, "a", 7);
-        \u0275\u0275text(16, "Log In");
+        \u0275\u0275elementStart(19, "div", 11)(20, "a", 12);
+        \u0275\u0275text(21, "Log In");
         \u0275\u0275elementEnd();
-        \u0275\u0275elementStart(17, "a", 8);
-        \u0275\u0275text(18, "Sign Up");
+        \u0275\u0275elementStart(22, "a", 13);
+        \u0275\u0275text(23, "Sign Up");
         \u0275\u0275elementEnd()()();
       }
-    }, styles: ["\n\n[_nghost-%COMP%]   a[_ngcontent-%COMP%] {\n  margin-left: 1rem;\n}\n/*# sourceMappingURL=header.component.css.map */"] });
+    }, styles: ["\n\na[_ngcontent-%COMP%] {\n  margin: 0.25rem 1rem;\n}\na[_ngcontent-%COMP%]:hover {\n  text-decoration: underline;\n}\nheader[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n}\nheader[_ngcontent-%COMP%]   div.logo[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: nowrap;\n  align-items: center;\n  gap: 1rem;\n}\nheader[_ngcontent-%COMP%]   div.logo[_ngcontent-%COMP%]   svg[_ngcontent-%COMP%], header[_ngcontent-%COMP%]   div.logo[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 40px;\n}\nheader[_ngcontent-%COMP%]   div.logo[_ngcontent-%COMP%]   div[_ngcontent-%COMP%] {\n  display: block;\n}\nheader[_ngcontent-%COMP%]   nav[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 1rem;\n  margin-left: auto;\n}\nheader[_ngcontent-%COMP%]   div.auth-buttons[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  align-items: center;\n  gap: 1rem;\n}\n/*# sourceMappingURL=header.component.css.map */"] });
   }
 };
 (() => {
@@ -32705,15 +32746,18 @@ var AppComponent = class _AppComponent {
     };
   }
   static {
-    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 6, vars: 0, consts: [[1, "main"]], template: function AppComponent_Template(rf, ctx) {
+    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _AppComponent, selectors: [["app-root"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 7, vars: 0, consts: [[1, "main"], [1, "featured"]], template: function AppComponent_Template(rf, ctx) {
       if (rf & 1) {
         \u0275\u0275elementStart(0, "main", 0);
-        \u0275\u0275element(1, "app-header")(2, "router-outlet");
-        \u0275\u0275elementStart(3, "footer")(4, "p");
-        \u0275\u0275text(5, "\xA9 2025 Vorteon. All rights reserved.");
+        \u0275\u0275element(1, "app-header");
+        \u0275\u0275elementStart(2, "section", 1);
+        \u0275\u0275element(3, "router-outlet");
+        \u0275\u0275elementEnd();
+        \u0275\u0275elementStart(4, "footer")(5, "p");
+        \u0275\u0275text(6, "\xA9 2025 Vorteon. All rights reserved.");
         \u0275\u0275elementEnd()()();
       }
-    }, dependencies: [RouterOutlet, HeaderComponent], styles: ["\n\n[_nghost-%COMP%]   .main[_ngcontent-%COMP%] {\n  width: 100%;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  box-sizing: inherit;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
+    }, dependencies: [RouterOutlet, HeaderComponent], styles: ["\n\n[_nghost-%COMP%]   .main[_ngcontent-%COMP%] {\n  width: 100%;\n  min-height: 100vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  box-sizing: inherit;\n}\n[_nghost-%COMP%]   section.featurd[_ngcontent-%COMP%] {\n  padding: 2em;\n  text-align: center;\n  display: flex;\n  justify-content: flex-start;\n  flex-direction: column;\n  border: 1px solid magenta;\n}\n/*# sourceMappingURL=app.component.css.map */"] });
   }
 };
 (() => {

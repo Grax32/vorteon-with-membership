@@ -29004,7 +29004,7 @@ function validateNode(route, fullPath, requireStandaloneComponents) {
       const routes: Routes = [
         { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
         { path: 'dashboard',  component: DashboardComponent },, << two commas
-        { path: 'detail/:id', component: HeroDetailComponent }
+        { path: 'detail/:id', component: featuredDetailComponent }
       ];
     `);
     }
@@ -32495,7 +32495,7 @@ var HomeComponent = class _HomeComponent {
     };
   }
   static {
-    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 23, vars: 0, consts: [[1, "hero"], ["href", "/get-started", 1, "cta"], [1, "features"], [1, "feature"]], template: function HomeComponent_Template(rf, ctx) {
+    this.\u0275cmp = /* @__PURE__ */ \u0275\u0275defineComponent({ type: _HomeComponent, selectors: [["app-home"]], standalone: true, features: [\u0275\u0275StandaloneFeature], decls: 23, vars: 0, consts: [[1, "featured"], ["href", "/get-started", 1, "cta"], [1, "features"], [1, "feature"]], template: function HomeComponent_Template(rf, ctx) {
       if (rf & 1) {
         \u0275\u0275elementStart(0, "section", 0)(1, "h1");
         \u0275\u0275text(2, "Vorteon");
