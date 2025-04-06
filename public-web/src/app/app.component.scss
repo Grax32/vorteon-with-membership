@@ -18,6 +18,20 @@
     }
 }
 
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #555;
+}
+
+
 // :host {
 //     --bright-blue: oklch(51.01% 0.274 263.83);
 //     --electric-violet: oklch(53.18% 0.28 296.97);

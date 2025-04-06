@@ -1,3 +1,11 @@
+:host {
+    display: block;
+}
+
+section {
+    text-align: center;
+}
+
 .featured {
     &>div {
         padding: 20px;
@@ -20,4 +28,30 @@
         font-weight: bold;
         text-transform: uppercase;
     }
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+.feature {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.feature h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 14px;
+    color: #555;
 }

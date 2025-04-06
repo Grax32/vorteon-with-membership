@@ -43,6 +43,26 @@ body {
   scroll-behavior: smooth;
   min-width: 500px;
 }
+.cta {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+.cta:hover {
+  background-color: #0056b3;
+}
+.cta.subscribe {
+  background-color: #28a745;
+}
+.cta.subscribe:hover {
+  background-color: #1e7e34;
+}
 
 /* angular:styles/global:styles */
 /*# sourceMappingURL=styles.css.map */
