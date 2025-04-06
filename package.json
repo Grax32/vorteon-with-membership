@@ -1,0 +1,15 @@
+{
+  "name": "vorteon-with-membership",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-jade": "cross-env ASPNETCORE_URLS=http://localhost:5005 dotnet run --project ./src/Vorteon.Web/Vorteon.Web.csproj",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
