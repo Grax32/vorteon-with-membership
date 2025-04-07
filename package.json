@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start-jade": "cross-env ASPNETCORE_URLS=http://localhost:5005 dotnet run --project ./src/Vorteon.Web/Vorteon.Web.csproj",
+    "start-jade": "cross-env ASPNETCORE_URLS=http://localhost:4540 dotnet run --project ./src/vorteon.csproj --no-launch-profile",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
